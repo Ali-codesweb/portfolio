@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Raleway', sans-serif
+}
+
+.sidebar {
+    color: #f6f5f5;
+    position: sticky;
+}
+
+.sidebar-content {
+    position: fixed;
+    padding-top: 5rem;
+}
+
+.sidebar-content>h2 {
+    padding-left: 4rem;
+    padding-bottom: 0.4rem;
+}
+
+.sidebar-content>h2::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 67%;
+    left: 15%;
+    background-color: #E56B6F;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+}
+
+.sidebar-content>h2:hover::after {
+    left: 9%;
+    width: 10%;
+}
+
+.sidebar-links {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.sidebar-links>ul>li {
+    list-style: none;
+}
+
+.sidebar-links>ul>li>a {
+    border-left: 2px solid transparent;
+    text-decoration: none;
+    color: #f6f5f5;
+    transition: all 0.6s ease;
+    padding-left: 10px;
+}
+
+.sidebar-links>ul>li>a:hover {
+    color: #F15152;
+    border-color: #E56B6F;
+}
+
+.home {
+    padding: 0px 0px!important;
+}
+
+.home-image {
+    background-image: url(images/mountains-1412683_1280.png);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+}
+
+.service-box {
+    text-align: center;
+    background-color: white;
+    transition: .6s;
+    padding: 3rem;
+}
+
+.services {
+    padding: 0px 0px!important;
+    width: 100%;
+    margin: 0px!important;
+}
+
+.service-div>h2 {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.service-div>h2::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+    background-color: #E56B6F;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+}
+
+.service-div>h2:hover::after {
+    left: 45%;
+    width: 10%;
+}
+
+.service-box:hover {
+    box-shadow: 0rem 0rem .5rem grey;
+}
+
+.provide {
+    height: 20rem;
+    width: 100%;
+    background-color: #ecbfa7;
+    text-align: center;
+    padding: 2rem;
+}
+
+.provide>h5 {
+    font-weight: 900;
+}
+
+.provide>p {
+    margin-top: 1.5rem;
+}
+
+.project-div>h2 {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.project-div>h2::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+    background-color: #E56B6F;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+}
+
+.project-div>h2:hover::after {
+    left: 45%;
+    width: 10%;
+}
+
+.provide-project {
+    text-align: center;
+    padding: 3rem;
+    transition: .6s;
+}
+
+.provide-project:hover {
+    box-shadow: 0rem 0rem .5rem rgb(211, 211, 211);
+}
+
+.project-div {
+    padding-top: 1rem;
+    background-color: #e9ab8a2a;
+}
+
